@@ -14,4 +14,8 @@ PIC :
 https://cloud.githubusercontent.com/assets/9777077/12153806/390f7b48-b4bc-11e5-8a77-2229a2ff0f73.png
 https://cloud.githubusercontent.com/assets/9777077/12153807/3c15a2d6-b4bc-11e5-8dd6-867414ef54ff.png
 
+![error2](https://cloud.githubusercontent.com/assets/9777077/12153806/390f7b48-b4bc-11e5-8a77-2229a2ff0f73.png)
+![script_fw2](https://cloud.githubusercontent.com/assets/9777077/12153807/3c15a2d6-b4bc-11e5-8dd6-867414ef54ff.png)
+
+
 Enjoy
