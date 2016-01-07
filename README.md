@@ -6,9 +6,12 @@ So exhausted when my sys admin came to me, and ask me : I've got some packets DR
 
 My script is made for this kind of path /data/log/res-f-01-01-2015/*.log or *.gz  (But of course you're free to change and adap) and ask you which item you are looking for plus the day when happened. 
 
-I used "zcat -f"  as you know it can read both *.log and *.gz file. 
+I used "zcat -f"  as you know it can read both *.log and *.gz files. 
 
-I've set as well an arg for a quick search : ./lycos.sh 10.0.0.1 will looking for firewall logs with the current day. 
+Manual : 
+- Just execute the script : ./lycos.sh 
+- I've set as well an arg for a quick search : ./lycos.sh 10.0.0.1 will looking for firewall logs with the current day. 
+  - tips : 
 
 PIC :
 ![script_fw2](https://cloud.githubusercontent.com/assets/9777077/12153807/3c15a2d6-b4bc-11e5-8dd6-867414ef54ff.png)
