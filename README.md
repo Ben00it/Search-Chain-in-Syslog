@@ -17,7 +17,7 @@ Manual :
   - Example : 10.147.0.1|10.147.0.2 (OR)
 
 Result :
-![script_fw2](https://cloud.githubusercontent.com/assets/9777077/12153807/3c15a2d6-b4bc-11e5-8dd6-867414ef54ff.png)
+![script_fw2](https://cloud.githubusercontent.com/assets/9777077/12340134/3ef914d4-bb19-11e5-9b5f-29a1e23740e6.jpg)
 ![error2](https://cloud.githubusercontent.com/assets/9777077/12153806/390f7b48-b4bc-11e5-8a77-2229a2ff0f73.png)
 
 
