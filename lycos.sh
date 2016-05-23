@@ -22,6 +22,8 @@ CYAN="\\033[11;36m"
 
 ## VARS Programs
 DAY=`date +%Y-%m-%d`
+PATHLOGS="/data/log/res-f*/$DAY*"
+
 
 ## Fonction
 # -> Only for an argument quick search in firewalls logs e.g: "./search.sh 10.147.0.2"
@@ -44,12 +46,12 @@ sleep 0.5
 echo "Launch research..."
 echo
 sleep 0.5
-echo -e $VERT "zcat -f /data/log/res-f*/$DAY* | grep -E --color \"$1\""
+echo -e $VERT "zcat -f $PATHLOGS | grep -E --color \"$1\""
 echo -e $NEUTRE
 sleep 3
-zcat -f /data/log/res-f*/$DAY* | grep -E --color "$1"
+zcat -f $PATHLOGS | grep -E --color "$1"
 echo ""
-echo -e $CYAN "Resultat de votre commande : zcat -f /data/log/res-f*/$DAY* | grep -E --color \"$1\""
+echo -e $CYAN "Resultat de votre commande : zcat -f $PATHLOGS | grep -E --color \"$1\""
 echo -e $NEUTRE  ""
 exit
 fi
